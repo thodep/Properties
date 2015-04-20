@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D1A91C2B1AE57894002FEA17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A91C2A1AE57894002FEA17 /* main.m */; };
+		D1A91C371AE578D7002FEA17 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A91C361AE578D7002FEA17 /* Car.m */; };
+		D1A91C3B1AE580B7002FEA17 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A91C3A1AE580B7002FEA17 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		D1A91C271AE57894002FEA17 /* Car */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Car; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A91C2A1AE57894002FEA17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1A91C351AE578D7002FEA17 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		D1A91C361AE578D7002FEA17 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		D1A91C391AE580B7002FEA17 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D1A91C3A1AE580B7002FEA17 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,8 @@
 		D1A91C1E1AE57894002FEA17 = {
 			isa = PBXGroup;
 			children = (
+				D1A91C381AE580A2002FEA17 /* Person */,
+				D1A91C341AE578BE002FEA17 /* Model */,
 				D1A91C291AE57894002FEA17 /* Car */,
 				D1A91C281AE57894002FEA17 /* Products */,
 			);
@@ -60,6 +68,25 @@
 				D1A91C2A1AE57894002FEA17 /* main.m */,
 			);
 			path = Car;
+			sourceTree = "<group>";
+		};
+		D1A91C341AE578BE002FEA17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1A91C351AE578D7002FEA17 /* Car.h */,
+				D1A91C361AE578D7002FEA17 /* Car.m */,
+			);
+			name = Model;
+			path = Car;
+			sourceTree = "<group>";
+		};
+		D1A91C381AE580A2002FEA17 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				D1A91C391AE580B7002FEA17 /* Person.h */,
+				D1A91C3A1AE580B7002FEA17 /* Person.m */,
+			);
+			name = Person;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A91C3B1AE580B7002FEA17 /* Person.m in Sources */,
+				D1A91C371AE578D7002FEA17 /* Car.m in Sources */,
 				D1A91C2B1AE57894002FEA17 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +264,7 @@
 				D1A91C301AE57894002FEA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
